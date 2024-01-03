@@ -20,4 +20,6 @@ MESA: 80
 - - - - - - - - - -
 MESA: 10
   type: especiales, name: Boneless, quantity: 2
+- - - - - - - - - -MESA: 10
+  type: especiales, name: Boneless, quantity: 1
 - - - - - - - - - -
