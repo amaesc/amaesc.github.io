@@ -207,7 +207,7 @@ function updateGitHubFile(githubUsername, repoName, filePath, branchName, encode
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
-            Authorization: 'Bearer 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',
+            Authorization: 'Bearer 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',
         },
         body: JSON.stringify({
             message: 'Update text file via API',
