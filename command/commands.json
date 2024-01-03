@@ -1,8 +1,7 @@
 {
-  "name": "Alberto Marquez Escamilla",
-  "age": 30,
-  "city": "Exampleville",
-  "isStudent": false,
-  "grades": [95, 87, 92]
+  "type": "ZERO",
+  "name": "ONE"
+  "quantity": 1
 }
 
+<span style="color: blue;">${item.type}</span> - ${item.name}: <span style="color: red;">${item.quantity}</span>`;
