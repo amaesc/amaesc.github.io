@@ -3,5 +3,3 @@
   "name": "ONE"
   "quantity": 1
 }
-
-<span style="color: blue;">${item.type}</span> - ${item.name}: <span style="color: red;">${item.quantity}</span>`;
