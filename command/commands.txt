@@ -18,3 +18,6 @@ MESA: 80
   type: Example, name: Example, quantity: Example
   type: Example, name: Example, quantity: Example
 - - - - - - - - - -
+MESA: 10
+  type: especiales, name: Boneless, quantity: 2
+- - - - - - - - - -
