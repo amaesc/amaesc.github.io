@@ -201,12 +201,12 @@ function fetchExistingContent(githubUsername, repoName, filePath, branchName) {
 
 function updateGitHubFile(githubUsername, repoName, filePath, branchName, encodedContent, latestCommitSHA) {
     const apiUrl = `https://api.github.com/repos/${githubUsername}/${repoName}/contents/${filePath}`;
-
+    console.log("Attempt to UPDATE");
     return fetch(apiUrl, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
-            Authorization: 'Bearer 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',
+            Authorization: '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',
         },
         body: JSON.stringify({
             message: 'Update text file via API',
