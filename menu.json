@@ -1,0 +1,222 @@
+{
+    "Hambre": [
+      {"ESPECIALES": [
+        {"name": "Boneless", "description": "Canasta de Bonless con distintas salsas", "price": 100.90, "unit": "300gr. (En crudo)"}
+      ]},
+      {"PA' EMPEZAR": [
+        {"name": "Nido de Cebolla", "description": "Canasta de cebolla frita con crema", "price": 21.90, "unit": "1pza"},
+        {"name": "Elote Entero", "description": "Description for Item 11", "price": 21.90, "unit": "1pza"},
+        {"name": "Elote en Vaso", "description": "Description for Item 11", "price": 26.90, "unit": "200gr"},
+        {"name": "Palomitas de Papa", "description": "Description for Item 11", "price": 26.90, "unit": "250gr"},
+        {"name": "Jalapeños Fritos", "description": "Description for Item 11", "price": 26.90, "unit": "120gr"},
+        {"name": "Papas Francesas", "description": "Description for Item 11", "price": 30.90, "unit": "200gr"},
+        {"name": "Salchichas Stadium", "description": "Description for Item 11", "price": 30.90, "unit": "1.5pzas"},
+        {"name": "Banderilla", "description": "Description for Item 11", "price": 30.90, "unit": "1pza"}
+      ]},
+      {"PA' LA CRUZ": [
+        {"name": "Shot de Camarón", "description": "Example", "price": 21.90, "unit": "30ml"},
+        {"name": "Caldo de Camarón", "description": "Example", "price": 21.90, "unit": "240ml"},
+        {"name": "Aguachile Verde", "description": "Example", "price": 26.90, "unit": "240ml"},
+        {"name": "Shot de Ostión", "description": "Example", "price": 26.90, "unit": "30ml"}
+      ]},
+      {"TOSTADAS": [
+        {"name": "Camarón", "description": "Example", "price": 21.90, "unit": "70gr"},
+        {"name": "Aguachile Negro", "description": "Example", "price": 21.90, "unit": "70gr"},
+        {"name": "Jicama Camarón", "description": "Example", "price": 21.90, "unit": "70gr"},
+        {"name": "Jicama Aguachile Negro", "description": "Example", "price": 21.90, "unit": "70gr"},
+        {"name": "Tinga", "description": "Example", "price": 26.90, "unit": "70gr"},
+        {"name": "Tostanacho", "description": "Example", "price": 26.90, "unit": "70gr"},
+        {"name": "Aguachile con Queso", "description": "Example", "price": 26.90, "unit": "70gr"},
+        {"name": "Atún Fresco", "description": "Example", "price": 40.90, "unit": "70gr"}
+      ]},
+      {"MONTADITOS": [
+        {"name": "Asado Verde con Chicharrón", "description": "Example", "price": 30.90, "unit": "90gr"},
+        {"name": "Chile Colorado con Puerco", "description": "Example", "price": 30.90, "unit": "90gr"},
+        {"name": "Alambre", "description": "Example", "price": 30.90, "unit": "90gr"},
+        {"name": "Discada", "description": "Example", "price": 30.90, "unit": "90gr"},
+        {"name": "Bisteck", "description": "Example", "price": 35.90, "unit": "90gr"},
+        {"name": "Pastor", "description": "Example", "price": 35.90, "unit": "90gr"},
+        {"name": "Chicharrón Prensado", "description": "Example", "price": 35.90, "unit": "90gr"},
+        {"name": "Campechano", "description": "Asada + Chih. Pren.", "price": 35.90, "unit": "90gr"},
+        {"name": "Arrachera Norteña", "description": "Example", "price": 35.90, "unit": "90gr"}
+      ]},
+      {"COSTRAS D' QUESO": [
+        {"name": "Chile Colorado con Puerco", "description": "Example", "price": 26.90, "unit": "80gr & 1pza"},
+        {"name": "Chorizo", "description": "Example", "price": 26.90, "unit": "80gr & 1pza"},
+        {"name": "Tinga", "description": "Example", "price": 26.90, "unit": "80gr & 1pza"},
+        {"name": "Asado Verde con Chicharrón", "description": "Example", "price": 26.90, "unit": "80gr & 1pza"},
+        {"name": "Camarón", "description": "Example", "price": 26.90, "unit": "80gr & 1pza"},
+        {"name": "Chicharrón Prensado", "description": "Example", "price": 30.90, "unit": "80gr & 1pza"},
+        {"name": "Arrachera Norteña", "description": "Example", "price": 30.90, "unit": "80gr & 1pza"},
+        {"name": "Alambre", "description": "Example", "price": 30.90, "unit": "80gr & 1pza"},
+        {"name": "Barbacoa", "description": "Example", "price": 30.90, "unit": "80gr & 1pza"}
+      ]},
+      {"TACOS": [
+        {"name": "Discada", "description": "Example", "price": 21.90, "unit": "300gr & 1pza"},
+        {"name": "Alambre", "description": "Example", "price": 21.90, "unit": "300gr & 1pza"},
+        {"name": "Camarón Tipo Baja", "description": "Example", "price": 21.90, "unit": "300gr & 1pza"},
+        {"name": "Suadero", "description": "Example", "price": 21.90, "unit": "300gr & 1pza"},
+        {"name": "Torito de Camarón", "description": "Example", "price": 21.90, "unit": "300gr & 1pza"},
+        {"name": "Chicharrón de Atún", "description": "Example", "price": 26.90, "unit": "300gr & 1pza"},
+        {"name": "Marlín con Costra de Queso", "description": "Example", "price": 26.90, "unit": "300gr & 1pza"},
+        {"name": "Gobernador", "description": "Example", "price": 26.90, "unit": "300gr & 1pza"},
+        {"name": "Asada", "description": "Example", "price": 26.90, "unit": "300gr & 1pza"},
+        {"name": "Chicarrón Prensado Especial", "description": "Example", "price": 26.90, "unit": "300gr & 1pza"},
+        {"name": "Arrachera Norteña", "description": "Example", "price": 26.90, "unit": "300gr & 1pza"},
+        {"name": "Pastor", "description": "Example", "price": 26.90, "unit": "300gr & 1pza"},
+        {"name": "Campechano", "description": "Asada + Chih. Pren", "price": 26.90, "unit": "300gr & 1pza"},
+        {"name": "Barbacoa", "description": "Example", "price": 30.90, "unit": "300gr & 1pza"},
+        {"name": "Tripitas", "description": "Example", "price": 30.90, "unit": "300gr & 1pza"},
+        {"name": "Country", "description": "Barbacoa + Tripitas", "price": 30.90, "unit": "300gr & 1pza"},
+        {"name": "Mixto", "description": "Asada + Tripa", "price": 30.90, "unit": "300gr & 1pza"}
+      ]},
+      {"MINI BURGUERS": [
+        {"name": "Chicharrón Prensado", "description": "Example", "price": 26.90, "unit": "110gr"},
+        {"name": "Camarón Baja", "description": "Example", "price": 26.90, "unit": "110gr"},
+        {"name": "Res BBQ", "description": "Example", "price": 26.90, "unit": "110gr"},
+        {"name": "Res Clásica", "description": "Queso + Aguacate", "price": 30.90, "unit": "110gr"},
+        {"name": "Pollo", "description": "Example", "price": 30.90, "unit": "110gr"}
+      ]},
+      {"POSTRES": [
+        {"name": "Taco de Tamarindo", "description": "Example", "price": 21.90, "unit": "2pzas."},
+        {"name": "Buñuelitos", "description": "Example", "price": 21.90, "unit": "100gr"},
+        {"name": "Deep Fried Oreo", "description": "Example", "price": 21.90, "unit": "3pzas."},
+        {"name": "Jicaleta", "description": "Example", "price": 21.90, "unit": "1pza"}
+
+      ]},
+      {"EXTRAS": [
+        {"name": "Ranch", "description": "Example", "price": 21.90, "unit": "120ml"},
+        {"name": "Queso Amarrillo", "description": "Example", "price": 21.90, "unit": "120ml"},
+        {"name": "Crema Chipotle", "description": "Example", "price": 21.90, "unit": "120ml"},
+        {"name": "Guacamole", "description": "Example", "price": 30.90, "unit": "120ml"}
+      ]}
+    ],
+
+    "Sed": [
+      {"CERVEZAS": [
+        {"name": "Tecate 0.0%", "description": "Example", "price": 22.90, "unit": "325ml"},
+        {"name": "Tecate", "description": "Example", "price": 22.90, "unit": "325ml"},
+        {"name": "Tecate Light", "description": "Example", "price": 22.90, "unit": "325ml"},
+        {"name": "Heineken 0.0%", "description": "Example", "price": 22.90, "unit": "325ml"},
+        {"name": "Carta Blanca", "description": "Example", "price": 22.90, "unit": "325ml"}
+      ]},
+      {"LAS CONSENTIDAS": [
+        {"name": "Indio", "description": "Example", "price": 26.90, "unit": "325ml"},
+        {"name": "DOS XX Ultra", "description": "Example", "price": 26.90, "unit": "325ml"},
+        {"name": "DOS XX Ambar", "description": "Example", "price": 26.90, "unit": "325ml"},
+        {"name": "DOS XX Lager", "description": "Example", "price": 26.90, "unit": "325ml"}
+      ]},
+      {"COCTELERÍA": [
+        {"name": "Amanzanita", "description": "Whisky + Manzana", "price": 21.90, "unit": "290ml"},
+        {"name": "Changuito Tequila", "description": "Example", "price": 21.90, "unit": "290ml"},
+        {"name": "Piña Colada", "description": "Example", "price": 21.90, "unit": "290ml"},
+        {"name": "Vampiro", "description": "Example", "price": 21.90, "unit": "290ml"},
+        {"name": "Blue Hawaiian", "description": "Example", "price": 21.90, "unit": "290ml"},
+        {"name": "Margarita", "description": "Clásica - Manggo - Tamarindo - Chamoy - Fresa", "price": 21.90, "unit": "290ml"},
+        {"name": "Mojito Clásico", "description": "Example", "price": 21.90, "unit": "290ml"},
+        {"name": "Daíquiri", "description": "Mango - Fresa - Limón - Tamarindo - Chamoy", "price": 21.90, "unit": "290ml"},
+        {"name": "Penca Dulce", "description": "Mezcal + Piña", "price": 26.90, "unit": "290ml"},
+        {"name": "Rosita Fresita", "description": "Vodka + Frutos Rojos", "price": 26.90, "unit": "290ml"},
+        {"name": "Dollar", "description": "Ron + Melón + Piña", "price": 26.90, "unit": "290ml"},
+        {"name": "Frapuccino", "description": "Kahlúa + Cold Brew", "price": 26.90, "unit": "290ml"},
+        {"name": "Mango Bachaco", "description": "Bacardí Mango + Jugo", "price": 26.90, "unit": "290ml"},
+        {"name": "Rusa", "description": "Example", "price": 26.90, "unit": "290ml"},
+        {"name": "Ruso Blanco", "description": "Example", "price": 26.90, "unit": "290ml"},
+        {"name": "Red Berry Gin", "description": "Ginebra + Frutos Rojos", "price": 26.90, "unit": "290ml"},
+        {"name": "Tamarindo C19", "description": "Vodka Tamarindo + Piña", "price": 26.90, "unit": "290ml"},
+        {"name": "Fresa Colada", "description": "Example", "price": 26.90, "unit": "290ml"},
+        {"name": "Cosmopolitan", "description": "Example", "price": 26.90, "unit": "290ml"},
+        {"name": "Tequila Sunrise", "description": "Example", "price": 26.90, "unit": "290ml"},
+        {"name": "Mojito Fresa", "description": "Example", "price": 26.90, "unit": "290ml"},
+        {"name": "Mojito Mango", "description": "Example", "price": 26.90, "unit": "290ml"},
+        {"name": "Mezcalita Jamaica", "description": "Example", "price": 26.90, "unit": "290ml"},
+        {"name": "Mangoneada", "description": "Example", "price": 30.90, "unit": "290ml"},
+        {"name": "Fresco Tequila", "description": "Squirt + Tamarindo + Tequila", "price": 30.90, "unit": "290ml"},
+        {"name": "Mojito Azul", "description": "Mojito + Blue Berry", "price": 30.90, "unit": "290ml"},
+        {"name": "Ninfa", "description": "Vodka + Blue Berry", "price": 30.90, "unit": "290ml"},
+        {"name": "Blue Berry Run", "description": "Ron + Blue Berry", "price": 30.90, "unit": "290ml"}
+      ]},
+      {"CLAMATOS": [
+        {"name": "Preparado", "description": "Example", "price": 21.90, "unit": "290ml"},
+        {"name": "Pepino", "description": "Example", "price": 21.90, "unit": "290ml"},
+        {"name": "Vuelve a la Vida", "description": "Con caldo de camarón", "price": 21.90, "unit": "290ml"},
+        {"name": "Tequila", "description": "Example", "price": 21.90, "unit": "290ml"},
+        {"name": "Bloody Mary", "description": "Example", "price": 21.90, "unit": "290ml"},
+        {"name": "Arrancador", "description": "No incluye cerveza", "price": 30.90, "unit": "290ml"},
+        {"name": "Arrancarindo", "description": "Clamato + Vodka Tamarindo", "price": 30.90, "unit": "290ml"},
+        {"name": "Chamochela", "description": "Clamato + Chamoy", "price": 30.90, "unit": "290ml"},
+        {"name": "C19", "description": "Con camarón seco", "price": 30.90, "unit": "290ml"}
+      ]},
+      {"MICHELADOS": [
+        {"name": "Cubano", "description": "Example", "price": 21.90, "unit": "60ml"},
+        {"name": "Chelado", "description": "Example", "price": 21.90, "unit": "60ml"},
+        {"name": "Endiablado", "description": "Example", "price": 21.90, "unit": "60ml"},
+        {"name": "Tamarindo", "description": "Example", "price": 21.90, "unit": "60ml"},
+        {"name": "Mango", "description": "Example", "price": 21.90, "unit": "60ml"},
+        {"name": "Chamoy", "description": "Example", "price": 21.90, "unit": "60ml"}
+      ]},
+      {"DALE UN TWIST A TU CERVEZA": [
+        {"name": "Sandia", "description": "Example", "price": 9.90, "unit": "30ml"},
+        {"name": "Mango", "description": "Example", "price": 9.90, "unit": "30ml"},
+        {"name": "Tamarindo", "description": "Example", "price": 9.90, "unit": "30ml"},
+        {"name": "Frutos Rojos", "description": "Example", "price": 9.90, "unit": "30ml"},
+        {"name": "Pepino Limón", "description": "Example", "price": 9.90, "unit": "30ml"},
+        {"name": "Blueberry", "description": "Example", "price": 9.90, "unit": "30ml"}
+      ]},
+      {"DIGESTIVOS": [
+        {"name": "Amareto Conti", "description": "Example", "price": 21.90, "unit": "30ml"},
+        {"name": "Khalúa Licor de Café", "description": "Example", "price": 21.90, "unit": "30ml"},
+        {"name": "Baileys", "description": "Example", "price": 30.90, "unit": "30ml"},
+        {"name": "Crema de Tequila 1921", "description": "Example", "price": 30.90, "unit": "30ml"},
+        {"name": "Crema de Sotol", "description": "Example", "price": 30.90, "unit": "30ml"},
+        {"name": "Licor 43", "description": "Example", "price": 30.90, "unit": "30ml"},
+        {"name": "Rum Chata", "description": "Example", "price": 40.90, "unit": "30ml"},
+        {"name": "Carajillo", "description": "Example", "price": 50.90, "unit": "30ml"}
+      ]},
+      {"SHOTS": [
+        {"name": "Sandileta", "description": "Example", "price": 21.90, "unit": "30ml"},
+        {"name": "Mango Tequila", "description": "Example", "price": 21.90, "unit": "30ml"},
+        {"name": "Jolly Rancher", "description": "Example", "price": 21.90, "unit": "30ml"},
+        {"name": "Chocoreta", "description": "Example", "price": 21.90, "unit": "30ml"},
+        {"name": "Tequila Chocolate", "description": "Example", "price": 21.90, "unit": "30ml"},
+        {"name": "Derrame", "description": "Example", "price": 21.90, "unit": "30ml"},
+        {"name": "Baby Mango", "description": "Example", "price": 21.90, "unit": "30ml"},
+        {"name": "Cucaracha", "description": "Example", "price": 21.90, "unit": "30ml"},
+        {"name": "Banderita", "description": "Example", "price": 21.90, "unit": "30ml"},
+        {"name": "Medusa", "description": "Example", "price": 21.90, "unit": "30ml"},
+        {"name": "Arroz con Leche", "description": "Fireball + Rumchata", "price": 30.90, "unit": "30ml"},
+        {"name": "Sambuca", "description": "Example", "price": 30.90, "unit": "30ml"},
+        {"name": "Banderita", "description": "Tequila Tradicional", "price": 30.90, "unit": "30ml"},
+        {"name": "7-UP Bomb", "description": "Vodka + Limón + Red Bull Sandía", "price": 40.90, "unit": "30ml"},
+        {"name": "Sandi Bomb", "description": "Vodka Tamarindo + Licor de Sandía + Limón + Tajín + Red Bull Sandía", "price": 40.90, "unit": "30ml"},
+        {"name": "Colada Boom", "description": "Malibu + Jugo de Piña + Red Bull Coco & Blue Berry", "price": 40.90, "unit": "30ml"},
+        {"name": "Coco Loco Bomb", "description": "Tajin + Malibu + Red Bull Coco & Blue Berry", "price": 40.90, "unit": "30ml"},
+        {"name": "Jagermeister", "description": "Example", "price": 40.90, "unit": "30ml"},
+        {"name": "Sambuca Canela", "description": "Example", "price": 40.90, "unit": "30ml"},
+        {"name": "ABC", "description": "Example", "price": 40.90, "unit": "30ml"},
+        {"name": "Tamarindo Bomb", "description": "Vodka Tamarindo + Red Bull Tropical", "price": 40.90, "unit": "30ml"},
+        {"name": "Bomba Mexicana", "description": "Azul Mango + Tajín + Red Bull Regular", "price": 40.90, "unit": "30ml"},
+        {"name": "Vegas Bomb", "description": "Licor de Durazno + Ron Coco + Jack Daniel's + Red Bull", "price": 50.90, "unit": "30ml"},
+        {"name": "Jager Bomb", "description": "Jagermeister + Red Bull", "price": 50.90, "unit": "30ml"},
+        {"name": "BUfanda Azul", "description": "Hpnotiq + Red Bull Coco & Blue Berry", "price": 60.90, "unit": "30ml"},
+        {"name": "SÚPER SAMPLER", "description": "2 Jolly Rancher + 2 Baby Mango + 2 Chocoreta + 2 Tequila Chocolate + 2 Sandileta + Luz Bengala", "price": 199.00, "unit": "30ml"}
+      ]},
+      {"SIN ALCOHOL": [
+        {"name": "Café Frozen", "description": "Example", "price": 21.90, "unit": "290ml"},
+        {"name": "Changada", "description": "Example", "price": 21.90, "unit": "290ml"},
+        {"name": "Rusada", "description": "Example", "price": 21.90, "unit": "290ml"},
+        {"name": "Piñada", "description": "Example", "price": 21.90, "unit": "290ml"},
+        {"name": "Fresada", "description": "Example", "price": 21.90, "unit": "290ml"},
+        {"name": "Limonada Tradicional", "description": "Example", "price": 21.90, "unit": "450ml"},
+        {"name": "Limonada Fresa", "description": "Example", "price": 21.90, "unit": "450ml"},
+        {"name": "Limonada de Pepino", "description": "Example", "price": 21.90, "unit": "450ml"},
+        {"name": "Agua de Horchata", "description": "Example", "price": 21.90, "unit": "500ml"},
+        {"name": "Agua de Jamaica", "description": "Example", "price": 21.90, "unit": "500ml"},
+        {"name": "Refresco", "description": "Example", "price": 21.90, "unit": "355ml"},
+        {"name": "Jugo", "description": "Example", "price": 21.90, "unit": "355ml"},
+        {"name": "Agua Alcalina", "description": "Example", "price": 21.90, "unit": "500ml"},
+        {"name": "Agua Quina", "description": "Example", "price": 21.90, "unit": "340ml"},
+        {"name": "Agua Mineral", "description": "Example", "price": 21.90, "unit": "340ml"}
+      ]}
+    ]
+}
