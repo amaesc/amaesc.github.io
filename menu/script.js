@@ -167,15 +167,19 @@ async function sendItems() {
     containerDiv.appendChild(itemDiv);
 
     const confirmDiv = document.createElement('button');
-    confirmDiv.onclick = sendMessage;
+    confirmDiv.onclick = generateQRcode;
     confirmDiv.innerHTML = 'Confirmar Orden';
     containerDiv.appendChild(confirmDiv);
 
     const totalHeight = Array.from(containerDiv.children).reduce((sum, itemDiv) => sum + itemDiv.clientHeight, 0);
     containerDiv.style.height = `${ShopList.length * 20 + 150}px`;
 
-    if(ShopList.length == 0) containerDiv.innerHTML = 'Prueba agregando algo :D';
-    containerDiv.style.display = (containerDiv.style.display === 'none') ? 'block' : 'none';
+    if(ShopList.length == 0){
+         containerDiv.innerHTML = 'Prueba agregando algo :D';
+    }else{
+        containerDiv.style.display = (containerDiv.style.display === 'none') ? 'block' : 'none';
+    }
+
 }
 
 function fetchExistingContent(githubUsername, repoName, filePath, branchName) {
@@ -264,6 +268,27 @@ const createTextContent = (tableNumber, items) => {
   
     return `${header}\n${itemsText}\n${separator}`;
 };
+
+
+function generateQRcode(){
+    var containerDiv = document.getElementById('myDiv');
+    containerDiv.style.display = "none";
+
+
+
+    const jsonString = JSON.stringify(ShopList);
+
+    // Generate QR code
+    const qrCodeDiv = document.getElementById('qrcode');
+    qrCodeDiv.style.display = "block";
+
+
+    new QRCode(qrCodeDiv, {
+        text: jsonString,
+        width: 300,
+        height: 300
+    });
+}
 
 
 document.addEventListener('DOMContentLoaded', showCategories);
