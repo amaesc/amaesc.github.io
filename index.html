@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Web Page Template</title>
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/70b04941cb.js" crossorigin="anonymous"></script>
+    <style>
+        /* Basic CSS styles for layout */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+        }
+        /* CSS for the fixed button */
+        .fixed-button {
+            position: fixed;
+            bottom: 10%;
+            right: 20px;
+            background-color: #575757;
+            color: #fff;
+            border: none;
+            border-radius: 50%; 
+            width: 50px; 
+            height: 50px;
+            cursor: pointer;
+            z-index: 999;
+        }
+
+        #suggested {
+          max-width: 100%;
+        }
+
+        #category-buttons {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        #subcategory-buttons *{
+          padding: 15px;
+        }
+
+        #shopping-number {
+          position: fixed;
+          top: 50%;
+          left: 50%; 
+          transform: translate(-50%, -50%); 
+          padding: 20px;
+          font-size: 5vh;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Header Section</h1>
+</header>
+
+<main>
+    <h2>Recomendados de hoy</h2>
+    <div id="suggested">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="data/example.jpg" class="d-block w-100" alt="...">
+            <p>1</p>
+          </div>
+          <div class="carousel-item">
+            <img src="data/example.jpg" class="d-block w-100" alt="...">
+            <p>2</p>
+          </div>
+          <div class="carousel-item">
+            <img src="data/example.jpg" class="d-block w-100" alt="...">
+            <p>3</p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <h2>Menú</h2>
+    <div id="category-buttons"></div>
+    <hr>
+    <div id="subcategory-buttons"></div>
+    <hr>
+    <div id="products-buttons"></div>
+    <div id="shopping-number"></div>
+    
+</main>
+
+<footer>
+    <p>Footer Section &copy; 2024</p>
+</footer>
+
+<button class="fixed-button"><i class="fa-solid fa-cart-shopping"></i></button>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
